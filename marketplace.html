@@ -9,7 +9,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="author" content="ZeK005">
 	<meta name="description" content="">
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/stylemarketplace.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="icon" href="img/icono.png">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<title>Document</title>
@@ -18,10 +19,188 @@
 
 <body>
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div id="Titulo">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+						<a class="navbar-brand" href="#"><img src="./img/logo-rollingbook.png" alt=""></a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+							</button>
 
-	<h1>HOLA</h1>
 
 
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+		
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Solicitudes
+											<span class="badge badge-light">3</span>
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Persona 1</a>
+											<a class="dropdown-item" href="#">Persona 2</a>
+											<a class="dropdown-item" href="#">Persona 3</a>
+		
+									<li class="nav-item">
+										<a class="nav-link" href="marketplace.html">Marketplace </a>
+		
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Mas Opciones
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Editar Perfil</a>
+											<a class="dropdown-item" href="#">Editar Privacidad</a>
+											<div class="dropdown-divider"></div>
+											<a class="dropdown-item" href="index.html">Cerrar Sesion</a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nombre</a>
+									</li>
+								</ul>
+								<form class="form-inline my-2 my-lg-0">
+									<input class="form-control mr-sm-2" type="search" placeholder="Buscador" aria-label="Search">
+									<button class="btn btn-primary my-2 my-sm-0 contorno-boton" type="submit">Buscar</button>
+								</form>
+							</div>
+						</nav>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="contenido row justify-content-between ">
+
+		<!-- Empieza Categoria -->
+		<div class="col-lg-3 col-md-3 categoria navbar-light bg-light">
+			<div class="collapse dont-collapse-sm" id="categorySupportedContent">
+				<h3>Categorias</h3>
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					<li><button class="category-style btn-block">Vehiculos<i class="fas fa-car"></i></button></li>
+					</li>
+					<li class="nav-item">
+					<li><button class="category-style btn-block">Inmuebles<i class="fas fa-home"></i></button></li>
+					</li>
+					<li class="nav-item">
+					<li><button class="category-style btn-block">Electronica<i class="fas fa-mobile-alt"></i></button></li>
+					</li>
+					<li class="nav-item">
+					<li><button class="category-style btn-block">Indumentaria<i class="fas fa-tshirt"></i></button></li>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- Termina Categoria -->
+		<div class="products  col-md-8 col-lg-8 ">
+			<div class="products-find row navbar-light bg-light">
+				<div class="product-find col-md-12">
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Que estas necesitando?"
+							aria-label="Recipient's username" aria-describedby="basic-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button"><img src="img/lupa.png"
+									height="15" alt=""></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="products-list row ">
+				<div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center ">
+					<div class="card navbar-light bg-light">
+						<img src="img/producto.png" class="card-img-top" alt="...">
+						<div class="price-image ">
+							<h3><strong>$111</strong></h3>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Producto.</p>
+							<p class="card-text">Lugar.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
+					<div class="card navbar-light bg-light">
+						<img src="img/producto.png" class="card-img-top" alt="...">
+						<div class="price-image">
+							<h3><strong>$222</strong></h3>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Producto.</p>
+							<p class="card-text">Lugar.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
+					<div class="card navbar-light bg-light">
+						<img src="img/producto.png" class="card-img-top" alt="...">
+						<div class="price-image">
+							<h3><strong>$333</strong></h3>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Producto.</p>
+							<p class="card-text">Lugar.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
+					<div class="card navbar-light bg-light">
+						<img src="img/producto.png" class="card-img-top" alt="...">
+						<div class="price-image">
+							<h3><strong>$444</strong></h3>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Producto.</p>
+							<p class="card-text">Lugar.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
+					<div class="card navbar-light bg-light">
+						<img src="img/producto.png" class="card-img-top" alt="...">
+						<div class="price-image">
+							<h3><strong>$555</strong></h3>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Producto.</p>
+							<p class="card-text">Lugar.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
+					<div class="card navbar-light bg-light">
+						<img src="img/producto.png" class="card-img-top" alt="...">
+						<div class="price-image">
+							<h3><strong>$666</strong></h3>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Producto.</p>
+							<p class="card-text">Lugar.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
