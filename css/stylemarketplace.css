@@ -1,0 +1,12 @@
+#Titulo {	
+	background-color: #007bff ;
+	border: 1px solid;
+	margin: 5px;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contorno-boton {
+    border: 1px solid black !important;
+}
