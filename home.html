@@ -12,12 +12,11 @@
 </head>
 
 <body>
-	<div class="container">
-		<div id="pagina">
-
+	
+		<div class="container-fluid sinborde">
 			<div id="Titulo">
 				<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-					<a class="navbar-brand" href="#">Navbar</a>
+					<a class="navbar-brand" href="#">RedSocial</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
@@ -26,26 +25,37 @@
 
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-							</li>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Solicitudes de Amistad
+									<span class="badge badge-light">3</span>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Persona 1</a>
+									<a class="dropdown-item" href="#">Persona 2</a>
+									<a class="dropdown-item" href="#">Persona 3</a>
+
 							<li class="nav-item">
-								<a class="nav-link" href="marketplace.html">Marketplace</a>
+								<a class="nav-link" href="marketplace.html">Marketplace </a>
+
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Mas Opciones
+									Opciones
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="#">Accion 1</a>
-									<a class="dropdown-item" href="#">Accion 2</a>
+									<a class="dropdown-item" href="#">Editar Perfil</a>
+									<a class="dropdown-item" href="#">Editar Privacidad</a>
 									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="index.html">Cerrar Sesion</a>
 								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+								<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nombre de Usuario
+								</a>
 							</li>
 						</ul>
 						<form class="form-inline my-2 my-lg-0">
@@ -56,8 +66,128 @@
 				</nav>
 
 			</div>
+		</div>
+
+        <div class="container">
 			<div class="row">
-				<div class="col-md-2 col-sm-12"></div>
+				<div class="col-md-2 col-sm-12">
+
+					<div class="accordion" id="accordionExample">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse"
+										data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
+										<img style="height: 30px; " src="https://image.flaticon.com/icons/png/512/46/46968.png" alt="">
+										Amigos
+										
+									</button>
+								</h2>
+							</div>
+
+							<div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+								data-parent="#accordionExample">
+								<div class="card-body">
+									<div class="list-group">
+
+										<a href="#"
+											class="list-group-item list-group-item-action list-group-item-primary">Nombre
+											Apellido 1</a>
+										<a href="#"
+											class="list-group-item list-group-item-action list-group-item-primary">Nombre
+											Apellido 2</a>
+										<a href="#"
+											class="list-group-item list-group-item-action list-group-item-primary">Nombre
+											Apellido 3</a>
+										<a href="#"
+											class="list-group-item list-group-item-action list-group-item-primary">Nombre
+											Apellido 4</a>
+										<a href="#"
+											class="list-group-item list-group-item-action list-group-item-primary">Nombre
+											Apellido 5</a>
+										<a href="#"
+											class="list-group-item list-group-item-action list-group-item-primary">Nombre
+											Apellido 6</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+										data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										<img style="height: 30px; " src="https://image.flaticon.com/icons/png/512/32/32441.png" alt="">
+										Grupos
+									</button>
+								</h2>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+								data-parent="#accordionExample">
+								<div class="card-body">
+										<div class="list-group">
+
+												<a href="#"
+													class="list-group-item list-group-item-action list-group-item-primary">Grupo 1
+													</a>
+												<a href="#"
+													class="list-group-item list-group-item-action list-group-item-primary">Grupo 2
+													</a>
+												<a href="#"
+													class="list-group-item list-group-item-action list-group-item-primary">Grupo 3
+													</a>
+												<a href="#"
+													class="list-group-item list-group-item-action list-group-item-primary">Grupo 4
+													</a>
+												<a href="#"
+													class="list-group-item list-group-item-action list-group-item-primary">Grupo 5
+													</a>
+												<a href="#"
+													class="list-group-item list-group-item-action list-group-item-primary">Grupo 6
+													</a>
+											</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+										data-target="#collapseThree" aria-expanded="false"
+										aria-controls="collapseThree">
+										<img style="height: 30px" src="https://image.flaticon.com/icons/png/512/45/45533.png" alt="">
+										Eventos
+									</button>
+								</h2>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+								data-parent="#accordionExample">
+								<div class="card-body">
+										<ul class="list-group">
+												<li class="list-group-item d-flex justify-content-between align-items-center">
+												  Hoy
+												  <span class="badge badge-primary badge-pill">8</span>
+												</li>
+												<li class="list-group-item d-flex justify-content-between align-items-center">
+												  Mañana
+												  <span class="badge badge-primary badge-pill">4</span>
+												</li>
+												<li class="list-group-item d-flex justify-content-between align-items-center">
+												  Este fin de Semana
+												  <span class="badge badge-primary badge-pill">23</span>
+												</li>
+											  </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+				</div>
+				
 				<div class="col-md-6 col-sm-12">
 
 					<div id="publicar">
@@ -65,11 +195,12 @@
 							<input type="text" class="form-control" placeholder="¿Que estas pensando"
 								aria-label="Recipient's username" aria-describedby="basic-addon2">
 							<div class="input-group-append">
-								<span class="input-group-text" id="basic-addon2">Publicar</span>
+								
+								<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Publicar</button>
 							</div>
 						</div>
 
-
+					</div>
 
 
 						<div id="fotos">
@@ -113,8 +244,10 @@
 								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 								style="width: 100%;  height: 100%" allowfullscreen> </iframe>
 						</div>
+						
 
-					</div>
+					
+					
 				</div>
 
 				<div class="col-md-4 col-sm-12">
@@ -134,10 +267,11 @@
 
 					</div>
 
-					<div>
-					</div>
-				</div>
+			    <div>
 			</div>
+		</div>
+				
+	</div>
 
 			<script src="js/jquery.js"></script>
 			<script src="js/bootstrap.min.js"></script>
