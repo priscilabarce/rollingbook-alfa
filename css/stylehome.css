@@ -1,79 +1,35 @@
-.container 
-{
 
-
-
-}
-
-
-#pagina
-			{
-			
-			
-	
-			}
-			#Titulo
-			{	
-				
-				background-color: #007bff ;
-			
-				border: 1px solid;
-				margin: 5px;
-				border-radius: 2px;
-				margin-left: auto;
-				margin-right: auto;
-			}
-				
 #publicar
 {
-	background-color: #007bff ;
-	margin: 0 auto;
-	border: 1px solid;
-
-
+	margin-top: 5px;
+	
+	border-radius: 5px;
 }
 
 #fotos
 {
-	
-	background-color: rgb(215, 243, 250);
-	margin: 0 auto;
-	border: 1px solid;
+
 	margin-top: 5px;
 	
-
 }
 #Video{
 	
-	background-color: rgb(215, 243, 250);
-	margin: 0 auto;
-	border: 1px solid;
 	margin-top: 5px;
 
 }
 
-
-			
-	#publicidad
+#publicidad
 	{
-		
-
-background-color: rgb(215, 243, 250);
-
-border: 1px solid;
-
-
-
-
+margin-top: 5px;
 	}
-	
-	#imagen1
-	{
-		width: 100%;
-	height: 100%;
-	}
-	
 
-			}
-			
-		
+.sinborde {
+
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.accordion {
+	margin-top: 5px;
+
+}
